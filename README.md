@@ -3,10 +3,10 @@
 **Author**: Venkata Chalapathy Pidathala
 
 ### Executive summary
-This project aims to develop a predictive model to identify invoices that are likely to be paid late. By analyzing customer behavior and transaction history, we will provide insights that help businesses manage cash flow effectively and improve accounts receivable processes.
+This project focuses on developing a machine learning model to predict delays in invoice payments. By analyzing historical transaction data, the model aims to assist businesses in managing cash flow more effectively and improving accounts receivable processes.
 
 ### Rationale
-Late payments create financial uncertainty for businesses, making it difficult to manage cash flow and plan resources efficiently. Predicting payment delays allows companies to take proactive measures, such as prioritizing follow-ups or offering incentives for early payments. This project uses machine learning to analyze patterns in payment history and customer behavior, providing data-driven solutions to mitigate risks associated with delayed payments.
+Late invoice payments can disrupt a company's financial stability. This project seeks to predict which invoices are likely to be paid late, enabling proactive measures to mitigate potential cash flow issues.
 
 ### Research Question
 Can we accurately predict whether an invoice will be paid on time based on customer behavior and transaction characteristics?
@@ -318,6 +318,16 @@ Both the **Random Forest** and **Gradient Boosting** models achieved an overall 
 These results suggest that the models are well-suited for predicting **invoice payment delays**, offering reliable performance across both timely and delayed payments.
 
 ### Programming & Libraries
+**Installation and Usage**
+  - **Installation:**
+    ```bash
+      git clone https://github.com/chalapvc/invoice-payment-delay-prediction.git
+      cd invoice-payment-delay-prediction
+      pip install -r requirements.txt
+    
+       ```
+  - **Usage:**
+    Open `invoice_payment_delay.ipynb` in Jupyter Notebook and follow the steps to preprocess data, train models, and evaluate results.
 
 **Python**
   - `pandas`, `numpy` – Data manipulation and numerical operations
@@ -358,6 +368,10 @@ Implements machine learning models (Random Forest, Gradient Boosting, Neural Net
 
 **Notebook 3 – Results & Visualization**
 Includes visualizations for feature importance, confusion matrices, training curves, and summary metrics across models.
+
+### References
+1. [Predicting Late Payments Using Decision Tree-Based Algorithms](https://arthurflor23.medium.com/prediction-of-late-payments-using-decision-tree-based-algorithms-ce72a2fbccab)
+2. [Optimize Cash Collection: Use Machine Learning to Predict Invoice Payment](https://arxiv.org/abs/1912.10828)
 
 ### Contact and Further Information
 If you have any questions, feedback, or would like to collaborate on similar projects, feel free to get in touch:
